@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <title>Personal Data</title>
+  </head>
+  <body style="background-color: rgb(162, 43, 45)">
+
+    
+    <form>
+       <!-- =========== The outer part =========== -->
+      <fieldset>
+        <legend style="background-color: rgb(73, 128, 172)">
+          Personal Data
+        </legend>
+        <br />
+
+         <!-- =========== Beginning of form =========== -->
+        <form>
+          <fieldset style="background-color: rgb(216, 164, 31)">
+            <legend style="background-color: rgb(104, 148, 238)">
+             <br><p>YourName</p><br>
+            </legend>
+            <br /><br />
+
+                  <!-- =========== The first part of form =========== -->
+
+                  <table>
+                    <tr>
+                      <td><label for="firs">first name</label></td>
+                      <td>:</td>
+                      <td><input id="firs" name="UserFirstName" placeholder="ex.ahmed"/></td>
+                    </tr>
+                    <tr>
+                      <td><label for="firs2">second name</label></td>
+                      <td>:</td>
+                      <td><input id="firs2" name="UserSecondName" placeholder="ex.bahnasy"/></td>
+                    </tr>
+                  </table>
+          </fieldset>
+
+          <!-- =========== The second part of form =========== -->
+          <br /><br /><br /><br />
+          <table>
+            <tr>
+              <td><label for="fi4">your phone</label></td>
+              <td>:</td>
+              <td><input id="fi4" name="UserPhone" type="tel" /></td>
+            </tr>
+            <tr>
+              <td><label for="em">Email</label></td>
+              <td>:</td>
+              <td><input id="em" name="UserEmail" type="email"/></td>
+            </tr>
+            <tr>
+              <td><label for="pa">password</label></td>
+              <td>:</td>
+              <td><input id="pa" name="UserPass" type="password"/></td>
+            </tr>
+            <tr>
+              <td><label for="pa2">re-password</label></td>
+              <td>:</td>
+              <td><input id="pa2" name="UserRePass" type="password"/></td>
+            </tr>
+            
+           </table>
+
+        <!-- =========== The part of Choices =========== -->
+          <br /><br /><br />
+          <label for="ma">Male</label>
+          <input id="ma" type="radio" name="Gender" value="Male" />
+          <br />
+          <label for="ma2">Female</label>
+          <input id="ma2" type="radio" name="Gender" value="Female" />
+
+          <br /><br /><br />
+          <label for="st">Student</label>
+          <input id="st" name="UserState" type="checkbox" value="Student" />
+          <br />
+          <label for="st2">Graduated</label>
+          <input id="st2" name="UserState" type="checkbox" value="Graduated" />
+          <br /><br /> 
+
+          <select name="Groupnum">
+            <optgroup label="Group 1">
+              <option value="option1.1">Auc</option>
+            </optgroup>
+
+            <optgroup label="Group 2">
+              <option value="option2.1">Option2.1</option>
+              <option value="option2.2">Option2.2</option>
+            </optgroup>
+            <optgroup label="Group 3" disabled>
+              <option value="option3.1">Option3.1</option>
+              <option value="option3.2">Option3.2</option>
+              <option value="option3.3">Option3.3</option>
+            </optgroup>
+          </select>
+
+          <!-- =========== The End & submit =========== -->
+          <br />
+          <button type="submit">
+            <img
+              src="submit-button-png-25811.png"
+              width="100"
+            />
+          </button>
+        </form>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,161 @@
+                        /* ============================= Basics ============================= */
+.body{
+    margin: 0;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+
+                        /* ============================= Home page ============================= */
+.view{
+    height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size:100% 100%;
+    overflow: auto;
+    padding-top: 50px;
+}
+
+.item{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 22px;
+}
+
+.item h1{
+    font-family: "Alegreya", serif;
+    font-size: 34px;
+}
+
+.view .p1{
+    font-size: 24px;
+}
+
+.view .button{
+    padding:20px 20px  ;
+    text-align: center;
+    font-family: "Alegreya", serif;
+    font-size: 16px;
+}
+
+                        /* ============================= Who We Are ============================= */
+
+
+.container{                             
+    padding: 90px 46.6px 60px 46.4px;
+    width:80%;
+    margin:auto;
+    
+}
+.text{
+    width: 350px;
+    margin-left: 50px;
+    float:left;
+}
+.whoimg{
+    float:left;
+    width: 550px;
+}
+.text h2{
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    color: black;
+}
+.text p{
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+}
+.text span{
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+}
+
+img{  
+    width: 500px;
+}
+
+
+                        /* ============================= Our Location ============================= */
+
+.location{
+    background-color: #f8f8f8;
+    padding: 90px 46.6px 90px 46.4px;
+    width:100%;
+    margin:auto;
+    
+}
+
+.text-loc{
+    width:500px;
+    float:left;
+}
+
+.img-loc{
+    width:600px;
+    float:right;
+    
+}
+
+.location h2{
+    font-size: 25.5px;
+    font-family: "Alegreya", serif;
+    margin: 0px 0px 25px;
+
+}
+
+.vip{
+    font-size: 17px;
+    font-family: "Alegreya Sans", sans-serif;
+    margin: 0px 0px 20px;
+} 
+
+.p2{
+    font-size: 17px;
+    font-family: "Alegreya Sans", sans-serif;
+    
+}
+
+
+                        /* ============================= Our Baking ============================= */
+
+
+.bak-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bak-img{
+    text-align: center;
+    width:33%;
+    float:left;
+}
+
+.bak-img img{
+    width: 90%;
+}
+
+.big-alg{
+    font-family: "Alegreya", serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgb(48, 48, 48);
+}
+
+.mid-alg{
+    font-family: "Alegreya", serif;
+    font-weight: lighter;
+    font-size: 22px;
+    color: rgb(48, 48, 48);
+}
+
+.s-alg{
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    color: rgb(104, 104, 104);
+}
+
+                        /* ============================= End ============================= */
