@@ -1,0 +1,31 @@
+.container {
+  background-color: #f6f2ea;
+  color: #274eba;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.item {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+.cleart {
+  clear: both;
+}
+
+span {
+  color: red;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.vip {
+  font-size: 70px;
+}
+
+body {
+  margin: 0;
+}
