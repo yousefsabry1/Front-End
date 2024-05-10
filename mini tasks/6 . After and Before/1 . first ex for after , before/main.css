@@ -1,0 +1,29 @@
+
+h2{
+    background-color: white;
+    text-align: center;
+    position:relative;
+}
+
+
+h2::after{
+    content:"";
+    position:absolute;
+    top:45%;
+    left:0;
+    background-color: rgba(255, 0, 0, 0.811);
+    
+    width: 45%;
+    height: 5px;
+}
+
+h2::before{
+    content:"";
+    position:absolute;
+    top:45%;
+    right:0;
+    background-color: rgba(255, 0, 0, 0.811);
+    
+    width: 45%;
+    height: 5px;
+}
