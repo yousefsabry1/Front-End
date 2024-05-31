@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    background-color: red;
+    height: 100vh;
+    background-image: url(../images/slider-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+
+.layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.home{
+    width: 40%;
+    text-align: center;
+}
+
+.home h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Source Sans 3", sans-serif;
+    margin:0 0 10px;
+}
+
+.home h1{
+    color:#FF305B;
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Source Sans 3", sans-serif;
+    margin:0 0 10px;
+}
+
+.home p{
+    color: white;
+    font-size: 26px;
+    font-weight: 300px;
+    font-family: "Source Sans 3", sans-serif;
+    margin:0 0 10px;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:99;
+}
+
+.navimg{
+    width: 20%;
+}
+
+.navimg img{
+    width:90%;
+}
+
+.navlist{
+    width: 40%;
+    
+}
+
+.navlist ul{
+    padding:10px;
+    margin:0;
+}
+
+.navlist ul li{
+    list-style: none;
+    padding : 10px 15px;
+}
+
+.navlist ul li a{
+    text-decoration: none;
+    color: white;
+    padding : 10px;
+}
+
+
+@media (min-width:640px){
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navlist{
+        display: flex;
+        align-items: center;
+    }
+    .navlist ul{
+        display:flex ;
+        align-items: center;
+    }
+
+    .navimg img{
+        width: 70%;
+    }
+
+
+}
