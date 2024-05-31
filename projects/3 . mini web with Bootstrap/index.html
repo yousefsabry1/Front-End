@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap test</title>
+    <!-- Bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- icon.css -->
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <!-- main.css -->
+    <link rel="stylesheet" href="css/style.css"/>  
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <img src="images/logo-alt.png" class="bg-black rounded-1"/>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="#header">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="#courses">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="#Achievements">Counter</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="#instructors">Testimonial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active fs-4" aria-current="page" href="#popular">Popular</a>
+            </li>
+
+            </ul>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <i class="fa-brands fa-facebook mx-3 fs-2"></i>
+                </li>
+                <li class="nav-item">
+                    <i class="fa-brands fa-twitter mx-3 fs-2"></i>
+                </li>
+                <li class="nav-item">
+                    <i class="fa-brands fa-instagram mx-3 fs-2"></i>
+                </li>
+              </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="header vh-100" id="header">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-6">
+                <h1 class="fw-bolder py-3">Limitless learning at your fingertips</h1>
+                <p class="fw-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero sed, molestiae pariatur eaque assumenda amet!</p>
+            </div>
+
+            <div class="col-md-6 position-relative">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#0099CC" d="M42.4,-35.5C58.1,-26.7,76.1,-13.4,77.5,1.5C79,16.3,64,32.6,48.3,44.1C32.6,55.5,16.3,62.2,0.4,61.8C-15.6,61.5,-31.2,54.1,-45.6,42.7C-60,31.2,-73.3,15.6,-75,-1.7C-76.7,-19,-66.9,-38.1,-52.5,-46.9C-38.1,-55.7,-19,-54.2,-2.8,-51.4C13.4,-48.5,26.7,-44.3,42.4,-35.5Z" transform="translate(100 100)" />
+                </svg>
+                <img src="images/img01.png" class="w-25 position-absolute top-50 start-50 translate-middle-x translate-middle-y"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="courses text-center py-3 bg-light" id="courses">
+    <h2 class="mb-4">Our Courses</h2>
+    <div class="container-fluid">
+        <div class="row gy-3">
+            <div class="col-md-3">
+                <div class="item border  border-2 rounded-2 py-3 bg-white">
+                    <img src="images/star.png" class="w-25"/>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem, ipsum dolor sit amet . Doloribus deleniti obcaecati quam. Quia, sunt hic.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="item border  border-2 rounded-2 py-3 bg-white">
+                    <img src="images/star.png" class="w-25"/>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem, ipsum dolor sit amet . Doloribus deleniti obcaecati quam. Quia, sunt hic.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="item border  border-2 rounded-2 py-3 bg-white">
+                    <img src="images/star.png" class="w-25"/>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem, ipsum dolor sit amet . Doloribus deleniti obcaecati quam. Quia, sunt hic.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="item border  border-2 rounded-2 py-3 bg-white">
+                    <img src="images/star.png" class="w-25"/>
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem, ipsum dolor sit amet . Doloribus deleniti obcaecati quam. Quia, sunt hic.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="Achievements text-center mt-5" id="Achievements">
+    <h2 class="mb-4">Our Achievements</h2>
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-md-3 mb-3">
+                <div class="item d-flex justify-content-evenly align-items-center rounded-4 py-4 bg-opacity-25 bg-warning">
+                    <i class="fa-solid fa-tv fs-1 text-warning"></i>
+                    <div>
+                        <h2 class="fw-bold text-start">10 k</h2>
+                        <p class="fw-bolder ">Online Courses</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="item d-flex justify-content-evenly align-items-center rounded-4 py-4 bg-opacity-25 bg-secondary">
+                    <i class="fa-solid fa-user fs-1 text-secondary"></i>
+                    <div>
+                        <h2 class="fw-bold text-start">200 +</h2>
+                        <p class="fw-bolder">Expert Tutors</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="item d-flex justify-content-evenly align-items-center rounded-4 py-4 bg-opacity-25 bg-danger">
+                    <i class="fa-solid fa-user-graduate fs-1 text-danger"></i>
+                    <div>
+                        <h2 class="fw-bold text-start">60 k+</h2>
+                        <p class="fw-bolder">Online Students</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="item d-flex justify-content-evenly align-items-center rounded-4 py-4 bg-opacity-25 bg-info">
+                    <i class="fa-solid fa-check fs-1 text-info"></i>
+                    <div>
+                        <h2 class="fw-bold text-start">6 k+</h2>
+                        <p class="fw-bolder ">Certified Courses</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="instructors text-center py-5" id="instructors">
+    <h2>Our instructors</h2>
+
+    <div id="carouselExampleIndicators" class="carousel slide w-50 m-auto">
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+
+            <img src="images/img16.jpg" class="rounded-circle shadow p-1"/>
+            <div class="feedback py-5 text-center border border-3">
+                <h3 class="py-3"> Eyad Nealon</h3>
+                <span>Senior chef</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi fugit accusantium aperiam eos dignissimos magnam illum a pariatur obcaecati quae.</p>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <img src="images/img17.jpg" class="rounded-circle shadow p-1"/>
+            <div class="feedback py-5 text-center border border-3">
+                <h3 class="py-3"> samy ahmed</h3>
+                <span>Senior chef</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi fugit accusantium aperiam eos dignissimos magnam illum a pariatur obcaecati quae.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/img18.jpg" class="rounded-circle shadow p-1"/>
+            <div class="feedback py-5 text-center border border-3">
+                <h3 class="py-3"> Larin beouty</h3>
+                <span>Senior chef</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi fugit accusantium aperiam eos dignissimos magnam illum a pariatur obcaecati quae.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators position-static py-2">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><img src="images/img16.jpg"/></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"><img src="images/img17.jpg"/></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"><img src="images/img18.jpg"/></button>
+          </div>
+      </div>
+</div>
+
+<section class="text-center py-5" id="popular">
+
+    <ul class="nav nav-pills mb-3 bg-info rounded-2  d-flex justify-content-center py-2 w-50 mx-auto" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Web Design</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Development</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Graphic Design</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-gallary" type="button" role="tab" aria-controls="pills-gallary" aria-selected="false">Marketing</button>
+          </li>
+        
+    </ul>
+
+    <h2>Most Popular Courses</h2>
+    <p>Choose from hundreds of courses from specialist organizations</p>
+
+    <div class="container">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"><div class="row gy-5">
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div></div>
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"><div class="row gy-5">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0"><div class="row gy-5">
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                
+    
+            </div></div>
+
+            <div class="tab-pane fade" id="pills-gallary" role="tabpanel" aria-labelledby="pills-gallary-tab" tabindex="0"><div class="row gy-5">
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/portfolio-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="body d-flex justify-content-between ">
+                                <h5><span class="badge text-bg-info">All level</span></h5>
+                                <i class="fa-solid fa-heart text-danger fs-4"></i>
+                            </div>
+    
+                            <h5 class="card-title">Sketch from A to Z : for app designer</h5>
+                            <p class="card-text text-secondary">Proposal indulged no do sociable he throwing settings</p>
+    
+                            <div class="stars">
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star fs-4 text-warning"></i>
+                                <i class="fa-solid fa-star-half-stroke fs-4 text-warning"></i>
+                                <span class="fs-5">4.0/5.0</span>
+                            </div>
+                        </div>
+    
+                        <div class="time card-footer d-flex justify-content-between p-3 py-3">
+                            <div class="clock">
+                                <i class="fa-solid fa-clock text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+    
+                            <div class="clock">
+                                <i class="fa-solid fa-table text-info"></i>
+                                <span>12h 45m</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div>
+
+          </div>
+    </div>
+
+
+
+
+
+
+
+</section>
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
