@@ -1,0 +1,55 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+    "itm1 itm1 itm1 itm2 itm2 itm2 itm2 itm3"
+    "itm4 itm4 itm4 itm5 itm5 itm6 itm6 itm3"
+    ;
+    grid-template-rows: 400px 400px;
+    width: 85%;
+    margin: auto;
+
+}
+
+
+.item1{
+    grid-area: itm1;
+    background-image: url(../images/1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.item2{
+    grid-area: itm2;
+    background-image: url(../images/2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.item3{
+    grid-area: itm3;
+    background-image: url(../images/dina-seafood-5.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.item4{
+    grid-area: itm4;
+    background-image: url(../images/3.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.item5{
+    grid-area: itm5;
+    background-image: url(../images/4.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.item6{
+    grid-area: itm6;
+    background-image: url(../images/full-6-600x420.jpg);
+    background-position: center center;
+    background-size: cover;
+}
