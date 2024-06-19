@@ -1,0 +1,470 @@
+/* Fonts :
+font-family: "Poppins", sans-serif;
+font-family: "Montserrat", sans-serif; */
+
+                                         /* <<<<<<<<<<<<<<<<< Shared <<<<<<<<<<<<<<<<< */
+
+html{
+    scroll-padding-top: 60px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: "Montserrat", sans-serif;
+}
+
+:root{
+    --mainColor:#1C1C1C;
+}
+
+.tixt-black{
+    color: var(--mainColor);
+}
+
+
+                                /* title services , Portfolio , Testimonials. Our Team. Contact Us. */
+
+.title h3{
+    font-weight: 900;
+    font-size: 45px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+
+.title h3::after{
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+                                         /* <<<<<<<<<<<<<<<<< Nav & home <<<<<<<<<<<<<<<<< */
+
+.navbar-nav .nav-link.active{
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+
+
+.navbar-nav .nav-link.active::after{
+    content: '';
+    width: 49px;
+    height: 2px;
+    background-color: rgb(9, 9, 9);
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+}
+
+.navbar-nav .nav-link{
+    color: rgb(0, 0, 0);
+}
+
+
+
+.home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.627) , rgba(0, 0, 0, 0.698)) ,url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+                                /* h1 */
+header h1{
+    font-size: 50px;
+}
+
+header h1::after{
+    content: '';
+    animation: typing 6s 1s infinite;
+}
+
+@keyframes typing {
+    1.639344262295082% {content: "|";}
+    3.278688524590164% {content: "D|";}
+    4.918032786885246% {content: "De|";}
+    6.557377049180328% {content: "Dev|";}
+    8.19672131147541% {content: "Deve|";}
+    9.836065573770492% {content: "Devel|";}
+    11.47540983606557% {content: "Develo|";}
+    13.11475409836066% {content: "Develop|";}
+    14.75409836065574% {content: "Develope|";}
+    16.39344262295082% {content: "Developer|";}
+    18.0327868852459% {content: "Develope|";}
+    19.67213114754098% {content: "Develop|";}
+    21.31147540983607% {content: "Develo|";}
+    22.95081967213115% {content: "Devel|";}
+    24.59016393442623% {content: "Deve|";}
+    26.22950819672131% {content: "Dev|";}
+    27.86885245901639% {content: "De|";}
+    29.50819672131148% {content: "D|";}
+    31.14754098360656% {content: "|";}
+    32.78688524590164% {content: "D|";}
+    34.42622950819672% {content: "De|";}
+    36.0655737704918% {content: "Des|";}
+    37.70491803278689% {content: "Desi|";}
+    39.34426229508197% {content: "Desig|";}
+    40.98360655737705% {content: "Design|";}
+    42.62295081967213% {content: "Designe|";}
+    44.26229508196721% {content: "Designer|";}
+    45.9016393442623% {content: "Designe|";}
+    47.54098360655738% {content: "Design|";}
+    49.18032786885246% {content: "Desig|";}
+    50.81967213114754% {content: "Desi|";}
+    52.45901639344262% {content: "Des|";}
+    54.09836065573771% {content: "De|";}
+    55.73770491803279% {content: "D|";}
+    57.37704918032787% {content: "|";}
+    59.01639344262295% {content: "L|";}
+    60.65573770491803% {content: "La|";}
+    62.29508196721312% {content: "Lar|";}
+    63.9344262295082% {content: "Larr|";}
+    65.57377049180328% {content: "Larry|";}
+    67.21311475409836% {content: "Larry |";}
+    68.85245901639344% {content: "Larry  D|";}
+    70.49180327868853% {content: "Larry  Da|";}
+    72.13114754098361% {content: "Larry  Dan|";}
+    73.77049180327869% {content: "Larry  Dani|";}
+    75.40983606557377% {content: "Larry  Danie|";}
+    77.04918032786885% {content: "Larry  Daniel|";}
+    78.68852459016394% {content: "Larry  Daniels|";}
+    80.32786885245902% {content: "Larry  Daniel|";}
+    81.9672131147541% {content: "Larry  Danie|";}
+    83.60655737704918% {content: "Larry  Dani|";}
+    85.24590163934426% {content: "Larry  Dan|";}
+    86.88524590163935% {content: "Larry  Da|";}
+    88.52459016393443% {content: "Larry  D|";}
+    90.16393442622951% {content: "Larry |";}
+    91.80327868852459% {content: "Larry|";}
+    93.44262295081967% {content: "Larr|";}
+    95.08196721311476% {content: "Lar|";}
+    96.72131147540984% {content: "La|";}
+    98.36065573770492% {content: "L|";}	
+    100% {content: "|";}
+    }
+
+    @media screen and (max-width : 900px) {
+        header h1{
+            font-size: 40px;
+        }
+        
+    }
+
+                                             /* <<<<<<<<<<<<<<<<< About <<<<<<<<<<<<<<<<< */
+
+
+                                /* progress bar */
+
+.progress-bar{
+    background-color: var(--mainColor);
+}
+
+.progress, .progress-stacked{
+    margin-bottom: 20px;
+}
+
+                                /* First button */
+
+.buttons .btn-download{
+    border: 2px solid #ffffff;
+    color: white;
+    background-color: var(--mainColor);
+    transition: all 1s;
+}
+
+.buttons .btn-download:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+                                /* Second button */
+
+.buttons .btn-contact{
+    border: 2px solid #000000;
+    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: white;
+    transition: all 1s;
+}
+
+.buttons .btn-contact:hover{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+
+                                             /* <<<<<<<<<<<<<<<<< services <<<<<<<<<<<<<<<<< */
+
+
+.card i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: #f4f4f4;
+    transition: all 0.5s;
+}
+
+.card{
+    box-shadow: 3px 5px 5px rgba(11, 11, 11,0.2);
+}
+
+
+.card:hover i{
+    background-color: var(--mainColor);
+    color: white;
+}
+
+                                             /* <<<<<<<<<<<<<<<<< portfolio <<<<<<<<<<<<<<<<< */
+
+.work .item .layer{
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    z-index: 4;
+}
+                                /*word*/
+.work .item:hover .layer{
+    top:0;
+}
+                                /* layer */
+
+.work .item .img-over {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: all 0.5s;
+    z-index: 2;
+    transform: translateY(10px);
+}
+
+.work .item:hover .img-over{
+    opacity: 0.9;
+    position: absolute;
+    top:0px;
+    transform: translateY(5px);
+    padding-bottom: 50px;
+}
+
+                                /* icons layer */
+
+.over-icons i{
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 2px solid #111;
+    background-color: #111;
+    color: #eee;
+    padding-left: 4px;
+}
+
+.over-icons i:hover{
+    background-color: white ;
+    border: 1px solid #111;
+    color: #111;
+}
+
+                                /* nav on photos */
+
+.nav-pills{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.nav-pills .nav-link{
+    color: #2B2424;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: white;
+}
+
+.nav-pills .nav-item .nav-link.active{
+    position: relative;
+}
+
+.nav-pills .nav-item .nav-link.active::after{
+    content:'';
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom:10px;
+    left: 16px;
+}
+
+                                             /* <<<<<<<<<<<<<<<<< Testimonials <<<<<<<<<<<<<<<<< */
+
+
+.carousel-indicators{
+    bottom: -30px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d6d6d6;
+}
+
+.carousel-inner img{
+    width: 100px;
+}
+
+                                             /* <<<<<<<<<<<<<<<<< team <<<<<<<<<<<<<<<<< */
+
+
+
+                                /* bottom card body */
+.card .card-body{
+    background-color: #5B5B5B;
+    position: relative;
+    z-index: 9;
+}
+
+.card .card-text{
+    color:white;
+}
+
+
+                                /* icons */
+
+.over-icons_2 i{
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 2px solid #111;
+    background-color: #111;
+    color: #eee;
+    padding-left: 4px;
+}
+
+                                /* layer of icon */
+
+.social{
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    text-align: center;
+    left: 5px;
+    right: 5px;
+    bottom: 100px;
+    opacity: 0;
+    top: 5px;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+    transition: 0.5s;
+}
+
+.card:hover .social{
+    transform: rotateY(360deg) scale(1, 1);
+    opacity: 0.9;
+}
+
+.over-icons_2 i:hover {
+    background-color: white ;
+    border: 1px solid #111;
+    color: #111;
+}
+
+                                /* scaling of img */
+
+.card img{
+    transition: all 0.5s;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+}
+
+                                             /* <<<<<<<<<<<<<<<<< contact <<<<<<<<<<<<<<<<< */
+
+.contact .item i{
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    border-radius: 50%;
+    border: 0px solid #111;
+    background-color: #F4F4F4;
+    color: var(--mainColor);
+    padding-left: 4px;
+    transition: all 0.5s;
+}
+
+.contact .item i:hover{
+    background-color: var(--mainColor);
+    color:#F4F4F4 ;
+}
+
+.first-two input{
+    width: 48%;
+}
+
+.btn-form , .btn-form:hover{
+    background-color: var(--mainColor);
+    color: white;
+    margin-top: 15px;
+}
+
+.form-control{
+    border:0;
+}
+
+.form-control:focus {
+    border:0;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.btn{
+    transition: all 0.5s;
+}
+
+form .btn:hover{
+    background-color: white;
+    color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+}
+
+
+                                             /* <<<<<<<<<<<<<<<<< end <<<<<<<<<<<<<<<<< */
+.end{
+    background-color: var(--mainColor);
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    word-spacing: 2px;
+    color: #748182;
+}
+
+
+
+                                             /* <<<<<<<<<<<<<<<<< Done <<<<<<<<<<<<<<<<< */
